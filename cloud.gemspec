@@ -8,11 +8,11 @@ Gem::Specification.new do |s|
   s.date = %q{2009-04-23}
   s.description = %q{Generates pdf-files with word clouds based on input. Inspired by wordle, but probably uses an entirely different algorithm, since Wordle is not Open Source.}
   s.email = ["info@ninajansen.dk"]
-  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc"]
-  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.rdoc", "Rakefile", "lib/cloud.rb", "lib/cloud/cloud.rb","lib/cloud/rss.rb","lib/cloud/wordbox.rb","script/console", "script/destroy", "script/generate", "test/test_cloud.rb", "test/test_helper.rb", "test/test_wordbox.rb"]
+  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.txt"]
+  s.files = ["History.txt", "Manifest.txt", "PostInstall.txt", "README.txt", "Rakefile", "lib/cloud.rb", "lib/cloud/cloud.rb","lib/cloud/rss.rb","lib/cloud/wordbox.rb","script/console", "script/destroy", "script/generate", "test/test_cloud.rb", "test/test_helper.rb", "test/test_wordbox.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://wiki.github.com/ninajansen/cloud}
-  s.rdoc_options = ["--main", "README.rdoc"]
+  s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
   s.summary = %q{Generates pdf-files with word clouds based on input}
