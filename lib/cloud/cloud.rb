@@ -2,7 +2,7 @@
 $KCODE = 'UTF8'
 require "net/http"
 require "iconv"
-require 'PDF/Writer'
+require 'pdf/writer'
 
 def time
   start = Time.now
