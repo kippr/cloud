@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<diff-lcs>, [">= 1.1.2"])
       s.add_runtime_dependency(%q<RubyInline>, [">= 3.8.1"]) 
       s.add_runtime_dependency(%q<pdf-writer>, [">= 1.1.8"]) 
-      s.add_runtime_dependency(%q<hpricot>, ["= 0.8.3"]) 
+      s.add_runtime_dependency(%q<hpricot>, [">= 0.8.3"]) 
     else
       s.add_dependency(%q<newgem>, [">= 1.2.3"])
       s.add_dependency(%q<hoe>, [">= 1.8.0"])
